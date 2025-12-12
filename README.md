@@ -4,7 +4,7 @@ Un sistema de planificación de recursos empresariales (ERP) desarrollado en **P
 
 ---
 
-## 📋 Tabla de Contenidos
+##  Tabla de Contenidos
 
 - [Características](#características)
 - [Requisitos Previos](#requisitos-previos)
@@ -20,7 +20,7 @@ Un sistema de planificación de recursos empresariales (ERP) desarrollado en **P
 
 ---
 
-## ✨ Características
+##  Características
 
 - ✅ **Autenticación segura** con sesiones PHP y contraseñas hasheadas (bcrypt)
 - ✅ **Control de permisos** - Admin (CRUD completo) vs Secretaria (solo lectura/edición)
@@ -38,7 +38,7 @@ Un sistema de planificación de recursos empresariales (ERP) desarrollado en **P
 
 ---
 
-## 🔧 Requisitos Previos
+##  Requisitos Previos
 
 - **XAMPP** (Apache 2.4+, PHP 8.2+, MySQL 5.7+/MariaDB 10.4+)
 - **Navegador web** moderno (Chrome, Firefox, Edge)
@@ -46,7 +46,7 @@ Un sistema de planificación de recursos empresariales (ERP) desarrollado en **P
 
 ---
 
-## 📦 Instalación
+##  Instalación
 
 ### 1. Descargar/Clonar el Proyecto
 
@@ -93,7 +93,7 @@ $dbPass = 'root';  // Cambia si tu XAMPP tiene otra contraseña
 
 ---
 
-## 📂 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 ProyectoWeb/
@@ -139,7 +139,7 @@ ProyectoWeb/
 
 ---
 
-## ⚙️ Configuración
+##  Configuración
 
 ### Archivo config/config.php
 
@@ -157,7 +157,7 @@ $dbCharset = 'utf8mb4';          // Codificación
 
 ---
 
-## � Estructura de Formularios Estandarizados
+##  Estructura de Formularios Estandarizados
 
 ### CREATE (Crear/Ingresar Datos)
 Todos los formularios de creación tienen:
@@ -185,14 +185,14 @@ Todos los formularios de edición tienen:
 - ✅ Vista previa de imágenes actuales
 - ✅ Repopulación automática en caso de error
 - ✅ Card-based layout con header temático
-- ✅ Botones consistentes (💾 Actualizar, ← Volver)
+- ✅ Botones consistentes ( Actualizar, ← Volver)
 
 **Colores de Headers por Módulo:**
-- Clientes: ⚠️ Amarillo (bg-warning)
-- Productos: ⚠️ Amarillo (bg-warning)
-- Compras: 🔵 Azul (bg-primary)
-- Proveedores: ✅ Verde (bg-success)
-- Ventas: ℹ️ Azul Claro (bg-info)
+- Clientes:  Amarillo (bg-warning)
+- Productos:  Amarillo (bg-warning)
+- Compras:  Azul (bg-primary)
+- Proveedores:  Verde (bg-success)
+- Ventas:  Azul Claro (bg-info)
 
 ### DELETE (Eliminar)
 Todos los delete incluyen:
@@ -203,7 +203,7 @@ Todos los delete incluyen:
 
 ---
 
-## �🗄️ Base de Datos
+##  Base de Datos
 
 ### Tablas Principales
 
@@ -233,7 +233,7 @@ Todos los delete incluyen:
 
 ---
 
-## 🚀 Uso
+##  Uso
 
 ### 1. Acceso Inicial
 
@@ -258,7 +258,7 @@ Haz clic en **"Cerrar Sesión"** en el sidebar o dropdown de usuario.
 
 ---
 
-## 👤 Credenciales de Prueba
+##  Credenciales de Prueba
 
 ### Usuario Admin
 - **Email**: `admin@hotmail.com`
@@ -286,7 +286,7 @@ Si necesitas cambiar contraseñas, usa el script de test:
 
 ---
 
-## 🔒 Seguridad
+##  Seguridad
 
 ### Medidas Implementadas
 
@@ -308,7 +308,7 @@ Si necesitas cambiar contraseñas, usa el script de test:
 
 ---
 
-## 📝 Notas de Desarrollo
+##  Notas de Desarrollo
 
 ### Archivos de Prueba Disponibles
 
@@ -338,7 +338,7 @@ $conn = new PDO($dsn, $dbUser, $dbPass, $options);
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### "Error de conexión a la base de datos: SQLSTATE[HY000] [1045]"
 
@@ -383,13 +383,13 @@ $conn = new PDO($dsn, $dbUser, $dbPass, $options);
 
 ---
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es de uso libre para propósitos educativos y comerciales.
 
 ---
 
-## 📞 Soporte
+##  Soporte
 
 Si encuentras problemas:
 
@@ -400,7 +400,7 @@ Si encuentras problemas:
 
 ---
 
-## 🎯 Próximas Mejoras
+##  Próximas Mejoras
 
 - [ ] Implementar módulo de reportes dinámicos
 - [ ] Agregar gráficos con Chart.js
